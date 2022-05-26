@@ -3,7 +3,7 @@ import './Nav.css'
 
 function Nav() {
   return (
-    <div>Nav</div>
+    <div></div>
   )
 }
 
