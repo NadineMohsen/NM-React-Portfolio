@@ -1,11 +1,16 @@
 import React from 'react'
 import './Header.css'
 import CTA from './CTA'
+
 import NM from '../../assets/NM.png'
+import shape1 from '../../assets/shape1.png'
 import Socials from './Socials'
+
+
 function Header() {
   return (
     <header>
+        <img src={shape1} alt="shape" className="shape"></img>
       <div className="container header-container">
         <h3 className="text-light">
           Welcome to my Portfolio
@@ -17,8 +22,6 @@ function Header() {
         <img src={NM} alt="logo"></img>
         </div>
         <Socials />
-
-      <a href="#contact" className="scroll-down">>>>></a>
       </div>
 
     </header>
