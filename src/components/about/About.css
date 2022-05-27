@@ -17,8 +17,11 @@
     border-radius: 2rem;
     transform:rotate(10deg);
     overflow:hidden;
+    height:100%;
 }
-
+.about-me-img img{
+    height:100%;
+}
 .about-me-img:hover{
     transition: var(--transition);
     transform:rotate(0deg);
