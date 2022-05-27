@@ -12,9 +12,9 @@ function Header() {
     <header>
         <img src={shape1} alt="shape" className="shape"></img>
       <div className="container header-container">
-        <h3 className="text-light">
+        <h4 className="text-light">
           Welcome to my Portfolio
-        </h3>
+        </h4>
        <h1 className="text-light">Nadine Mohsen </h1>
        <h3 className="text-light">Fullstack Web Deveoper</h3>
         <CTA />

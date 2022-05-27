@@ -4,7 +4,7 @@ import Header from './components/header/Header'
 import Nav from './components/nav/Nav';
 import About from "./components/about/About"
 import Contact from "./components/contact/Contact"
-import Experience from './components/experience/Experience';
+import Skills from './components/skills/Skills';
 import Footer from './components/footer/Footer';
 import Portfolio from './components/portfolio/Portfolio';
 // React apps typically have a single App component at the very top that can reference other React components.
@@ -15,7 +15,7 @@ function App() {
       <Header />
       <Nav />
       <About />
-      <Experience />
+      <Skills />
       <Portfolio />
       <Contact />
       <Footer />
