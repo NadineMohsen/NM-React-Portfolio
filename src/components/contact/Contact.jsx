@@ -2,6 +2,7 @@ import React from 'react'
 import './Contact.css'
 import {MdOutlineMail} from "react-icons/md"
 import {FaLinkedinIn} from "react-icons/fa"
+import {BsStackOverflow} from "react-icons/bs"
 function Contact() {
   return (
     <section id="contact">
@@ -22,6 +23,14 @@ function Contact() {
                 <h5>Nadine Mohsen</h5>
                 <a href="https://www.linkedin.com/in/nadine-mohsen/" target="_blank">Message me on LinkedIn</a>
             </article>
+
+            <article className="contact-option">
+                 <BsStackOverflow className="contact-icons"/>
+                <h4>StackOverflow</h4>
+                <h5>Nadine Mohsen</h5>
+                <a href="https://stackoverflow.com/users/17531775/nadine" target="_blank">StackOverflow</a>
+            </article>
+
             </div>
 
           <form action="">
