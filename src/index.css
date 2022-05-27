@@ -109,7 +109,10 @@ a:hover{
     border: 1px solid var(--color-primary);
     transition:var(--transition);
 }
-
+.btn-primary{
+    background:var(--color-primary);
+    color: var(--color-white)
+}
 .btn:hover{
     background: var(--color-white);
     color: var(--color-bg);
