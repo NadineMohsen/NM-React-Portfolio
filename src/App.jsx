@@ -6,7 +6,7 @@ import About from "./components/about/About"
 import Contact from "./components/contact/Contact"
 import Skills from './components/skills/Skills';
 import Footer from './components/footer/Footer';
-import Portfolio from './components/portfolio/Portfolio';
+import Projects from './components/projects/Projects';
 // React apps typically have a single App component at the very top that can reference other React components.
 // This component, `App`, is our main component that is importing `Hello` and rendering it in the return method.
 function App() {
@@ -16,7 +16,7 @@ function App() {
       <Nav />
       <About />
       <Skills />
-      <Portfolio />
+      <Projects />
       <Contact />
       <Footer />
     </>
