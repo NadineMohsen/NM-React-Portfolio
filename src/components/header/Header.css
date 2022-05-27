@@ -3,14 +3,16 @@ header{
     overflow: hidden;
     padding-top: 7rem;
 }
-.shape{
+ /* .shape{
+    width:500px;
+    height:500px;
     display:block;
     position:absolute;
-    left:95%;
-    top:-15rem;
-    z-index:2;
-    transform: translate(-50%);
-}
+    z-index:2; 
+     transform: translate(100%);
+    transform: rotate(10deg);
+    left:20vw;
+}  */
 
 .header-container{
     text-align: center;
@@ -44,13 +46,14 @@ header{
 
 /* img */
 .me{
-    overflow: hidden;
+    /* overflow: hidden; */
     position:absolute;
     width:35rem;
     height:35rem;
     left: calc(50% - 17.5rem);
     padding: 7rem 5rem 5rem 5rem;
 }
+
 h3{
     padding-bottom: 0;
     margin-bottom: 0;
@@ -59,9 +62,9 @@ h3{
  header{
      height:100vh;
  }
- .shape{
+ /* .shape{
     display: none;
- }
+ } */
 }
 
 @media screen and (max-width: 600px){
@@ -76,7 +79,7 @@ h3{
         height:30rem;
         left: calc(50% - 15rem);
     }
-    .shape{
+    /* .shape{
         display: none;
-     }
+     } */
 }

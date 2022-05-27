@@ -3,14 +3,14 @@ import './Header.css'
 import CTA from './CTA'
 
 import NM from '../../assets/NM.png'
-import shape1 from '../../assets/shape1.png'
+// import shape1 from '../../assets/shape1.png'
 import Socials from './Socials'
 
 
 function Header() {
   return (
     <header>
-        <img src={shape1} alt="shape" className="shape"></img>
+        {/* <img src={shape1} alt="shape" className="shape"></img> */}
       <div className="container header-container">
         <h4 className="text-light">
           Welcome to my Portfolio
