@@ -7,13 +7,13 @@ function Socials() {
   return (
     <div className="header-socials">
         <a href="https://www.linkedin.com/in/nadine-mohsen/" target="_blank">
-            <BsLinkedin />
+            <BsLinkedin className="social-icons"/>
         </a>
         <a href="https://github.com/NadineMohsen" target="_blank">
-            <FaGithub />
+            <FaGithub className="social-icons"/>
         </a>
         <a href="https://stackoverflow.com/users/17531775/nadine" target="_blank">
-            <BsStackOverflow />
+            <BsStackOverflow className="social-icons"/>
         </a>
     </div>
   )
