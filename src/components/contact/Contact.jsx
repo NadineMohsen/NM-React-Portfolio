@@ -1,9 +1,27 @@
-import React from 'react'
+import React, { useRef } from 'react';
 import './Contact.css'
 import {MdOutlineMail} from "react-icons/md"
 import {FaLinkedinIn} from "react-icons/fa"
 import {BsStackOverflow} from "react-icons/bs"
+import emailjs from 'emailjs-com'
 function Contact() {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_jcvo09i', 'template_azmnbq1', form.current, 'GFZwx9s9GIQWf-F5I')
+    e.target.reset()
+    document.getElementById("paragraph").style.display="block"
+      // .then((result) => {
+      //     console.log(result.text);
+      // }, (error) => {
+      //     console.log(error.text);
+      // });
+  };
+
+
   return (
     <section id="contact">
       <h5>Get in Touch</h5>
@@ -33,15 +51,16 @@ function Contact() {
 
             </div>
 
-          <form action="">
+          <form ref={form} onSubmit={sendEmail}>
               <input type="text" name="name" placeholder="Full name" required/>
-              <input type="email" name="email" placeholder="Email" required/>
+              <input type="email" className="form-control" name="email" placeholder="Email" required/>
               <textarea name="message" rows="7" placeholder="Your Message Here" required></textarea>
               <button type="submit" className="btn btn-primary">Send Message</button>
+              <p id="paragraph" className="form-submitted">Thank you for you email! </p>
           </form>
-
-       
       </div>
+
+
     </section>
   )
 }

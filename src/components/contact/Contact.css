@@ -51,7 +51,11 @@ input,textarea{
     resize:none;
     color:var(--color-white);
 }
-
+.form-submitted{
+    color:rgb(144, 197, 166);
+    display:none;
+    font-size:25px;
+}
 @media screen and (max-width: 1024px){
     .container.contact-container{
         grid-template-columns: 1fr;
