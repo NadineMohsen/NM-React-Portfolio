@@ -80,7 +80,7 @@ No test for this application
 [Github Repo](https://github.com/NadineMohsen/NM-React-Portfolio)
 
 ## Link 
-link
+[Click here](https://nadinemohsen.github.io/NM-React-Portfolio/)
 
 ## Questions
 For any questions you can reach me on github or by email
