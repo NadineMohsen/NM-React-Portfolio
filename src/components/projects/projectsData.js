@@ -10,14 +10,14 @@ const projectData = [
         id:1,
         image: img1,
         title:"Creatives Lab",
-        github:"https://github.com/BavKudhail/creative-labs",
+        github:"https://github.com/NadineMohsen/creative-labs",
         demo:"https://creativelabs-app.herokuapp.com/"
     },
     {
         id:2,
         image:img2,
         title:"CryptoCurrency Guide",
-        github:"https://github.com/JosephCurtis1999/CryptocurrencyFinder",
+        github:"https://github.com/NadineMohsen/CryptocurrencyFinder",
         demo:"https://josephcurtis1999.github.io/CryptocurrencyFinder/"
     },
     {
