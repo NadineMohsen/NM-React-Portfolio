@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/NM-React-Portfolio/static/css/main.8b1eaf41.css",
-    "main.js": "/NM-React-Portfolio/static/js/main.14c11231.js",
+    "main.js": "/NM-React-Portfolio/static/js/main.33e28452.js",
     "static/media/crypto.jpg": "/NM-React-Portfolio/static/media/crypto.939b7539134136c9ecd7.jpg",
     "static/media/about.png": "/NM-React-Portfolio/static/media/about.6a28ac837fd2607fb0ab.png",
     "static/media/texteditor.png": "/NM-React-Portfolio/static/media/texteditor.cf203631a0a8fcdfdc15.png",
     "static/media/weather.png": "/NM-React-Portfolio/static/media/weather.45bbb31188d74a74f0a0.png",
     "static/media/quiz.png": "/NM-React-Portfolio/static/media/quiz.cbe54a6970731dd62c82.png",
     "static/media/creatives.jpg": "/NM-React-Portfolio/static/media/creatives.b046b905951793c5a056.jpg",
-    "static/media/cv.pdf": "/NM-React-Portfolio/static/media/cv.63057fb439a59879157e.pdf",
+    "static/media/cv.pdf": "/NM-React-Portfolio/static/media/cv.792b90f7be8322d34299.pdf",
     "static/media/tech.jpg": "/NM-React-Portfolio/static/media/tech.8b00fc3afbe762513adb.jpg",
     "static/media/NM.png": "/NM-React-Portfolio/static/media/NM.12eb543ec87eead92351.png",
     "index.html": "/NM-React-Portfolio/index.html",
     "main.8b1eaf41.css.map": "/NM-React-Portfolio/static/css/main.8b1eaf41.css.map",
-    "main.14c11231.js.map": "/NM-React-Portfolio/static/js/main.14c11231.js.map"
+    "main.33e28452.js.map": "/NM-React-Portfolio/static/js/main.33e28452.js.map"
   },
   "entrypoints": [
     "static/css/main.8b1eaf41.css",
-    "static/js/main.14c11231.js"
+    "static/js/main.33e28452.js"
   ]
 }
