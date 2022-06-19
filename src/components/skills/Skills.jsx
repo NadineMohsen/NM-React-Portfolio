@@ -13,16 +13,28 @@ function Skills() {
             <article className="skills-details">
             <BsPatchCheckFill className="skills-details-icons"/>
               <div>
-              <h4>HTML</h4>
-              <small>Experienced</small>
+              <h4>React</h4>
               </div>
             </article>
 
             <article className="skills-details">
             <BsPatchCheckFill className="skills-details-icons"/>
               <div>
-              <h4>Css</h4>
-              <small>Experienced</small>
+              <h4>HTML</h4>
+              </div>
+            </article>
+
+            <article className="skills-details">
+            <BsPatchCheckFill className="skills-details-icons"/>
+              <div>
+              <h4>CSS</h4>
+              </div>
+            </article>
+
+            <article className="skills-details">
+            <BsPatchCheckFill className="skills-details-icons"/>
+              <div>
+              <h4>CSS Frameworks</h4>
               </div>
             </article>
 
@@ -30,15 +42,13 @@ function Skills() {
             <BsPatchCheckFill className="skills-details-icons"/>
               <div>
               <h4>Js</h4>
-              <small>Experienced</small>
               </div>
             </article>
 
             <article className="skills-details">
             <BsPatchCheckFill className="skills-details-icons"/>
               <div>
-              <h4>Css Frameworks</h4>
-              <small>Experienced</small>
+              <h4>jQuery</h4>
               </div>
             </article>
             </div>
@@ -51,32 +61,43 @@ function Skills() {
             <article className="skills-details">
             <BsPatchCheckFill className="skills-details-icons"/>
               <div>
-              <h4>React</h4>
-              <small>Experienced</small>
+              <h4>MERN</h4>
               </div>
             </article>
 
             <article className="skills-details">
             <BsPatchCheckFill className="skills-details-icons"/>
               <div>
-              <h4>MongoDb</h4>
-              <small>Experienced</small>
+              <h4>GraphQl</h4>
+              </div>
+            </article>  
+
+            <article className="skills-details">
+            <BsPatchCheckFill className="skills-details-icons"/>
+              <div>
+              <h4>MongoDB</h4>
+
               </div>
             </article>
 
             <article className="skills-details">
             <BsPatchCheckFill className="skills-details-icons"/>
               <div>
-              <h4>NodeJs</h4>
-              <small>Experienced</small>
+              <h4>NodeJS</h4>
               </div>
             </article>
 
             <article className="skills-details">
             <BsPatchCheckFill className="skills-details-icons"/>
               <div>
-              <h4>MySql</h4>
-              <small>Experienced</small>
+              <h4>ExpressJS</h4>
+              </div>
+            </article>
+
+            <article className="skills-details">
+            <BsPatchCheckFill className="skills-details-icons"/>
+              <div>
+              <h4>mySQL</h4>
               </div>
             </article>  
               </div>

@@ -3,9 +3,16 @@ import img2 from "../../assets/crypto.jpg"
 import img3 from "../../assets/tech.jpg"
 import img4 from "../../assets/texteditor.png"
 import img5 from "../../assets/weather.png"
-import img6 from "../../assets/quiz.png"
+import img6 from "../../assets/eventech.jpg"
 
 const projectData = [
+    {
+        id:6,
+        image: img6,
+        title:"EvenTech",
+        github:"https://github.com/NadineMohsen/eventech",
+        demo:"https://eventech-app.herokuapp.com/"
+    },
     {
         id:1,
         image: img1,
@@ -41,13 +48,6 @@ const projectData = [
         title:"Weather Dashboard",
         github:"https://github.com/NadineMohsen/Weather-Dashboard",
         demo:"https://nadinemohsen.github.io/Weather-Dashboard/"
-    },
-    {
-        id:6,
-        image: img6,
-        title:"Code Quiz",
-        github:"https://github.com/NadineMohsen/Code-Quiz",
-        demo:"https://nadinemohsen.github.io/Code-Quiz/"
     },
 
 ]
